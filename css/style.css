@@ -254,7 +254,7 @@ transition: 0.2s;
   height: 100vh;
   /* vertically align its content */
   display: table;
-  background-color: #e4dcca;
+  background-color: #fff;
 }
 .cd-main-content .center {
   /* vertically align inside parent element */
