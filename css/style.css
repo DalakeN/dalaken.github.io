@@ -215,20 +215,35 @@ transition: 0.2s;
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
-
+   .portfolio a{
+    width: 12rem;
+  }
 	.footer strong {
 		margin: 3rem 0 2rem;
 		display: inline-block;
 	}
+}
 
+/* Large Devices, Wide Screens */
+    @media (min-width : 992) and (max-width :1199px ) {
+
+  .portfolio {
+  padding: 11.8rem 0px;
+  }
+  .portfolio a{
+  width: 12rem;
+  }
 }
 
  /* Large Devices, Wide Screens */
     @media (min-width : 1200px) and (max-width :1920px ) {
 
-  	.portfolio {
+  .portfolio {
 	padding: 11.8rem 0px;
 	}
+  .portfolio a{
+    width: 12rem;
+  }
 }
    
 /*Оформление модального окна*/
