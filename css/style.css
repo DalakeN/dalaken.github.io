@@ -230,8 +230,6 @@ transition: 0.2s;
 	}
 }
    
-
-
 /*Оформление модального окна*/
 .cd-main-content {
   position: relative;
@@ -262,7 +260,6 @@ Modal window
   height: 100%;
   width: 100%;
   overflow: hidden;
-  background: #402f44 url(../img/modal-bg.jpg) no-repeat center center;
   background-size: cover;
   opacity: 0;
   visibility: hidden;
@@ -277,6 +274,7 @@ Modal window
   color: #e4dcca;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+    background: #402f44 url(../img/modal-bg.jpg) no-repeat center center;
 }
 .cd-modal h1 {
   text-align: center;
