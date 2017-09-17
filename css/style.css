@@ -168,9 +168,14 @@ transition: 0.2s;
 	text-decoration: none;
 }
 
-.modal-title {
-	font-weight: 800;
-	font-size: 2rem;
+.modal-content {
+	font-weight: 300;
+	font-size: 2.5rem;
+	padding: 0;
+}
+
+.modal-content p {
+	font-size: 1.4rem;
 }
 
 .close {
@@ -286,7 +291,6 @@ Modal window
 }
 .cd-modal p {
   line-height: 1.6;
-  margin: 2em auto;
   max-width: 800px;
 }
 .cd-modal .modal-close {
